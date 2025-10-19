@@ -1,0 +1,14 @@
+{
+  "cli": {
+    "appVersionSource": "remote" },
+  "build": {
+    "preview": {
+      "android": { "buildType": "apk" },
+      "env": { "EXPO_KOTLIN_VERSION": "1.9.22" }
+    },
+    "production": {
+      "android": { "buildType": "app-bundle" },
+      "env": { "EXPO_KOTLIN_VERSION": "1.9.22" }
+    }
+  }
+}

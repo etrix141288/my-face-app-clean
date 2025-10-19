@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "My Face App",
+    "slug": "my-face-app",
+    "plugins": [
+      "react-native-vision-camera",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "minSdkVersion": 24,
+            "kotlinVersion": "1.9.22",
+            "gradlePluginVersion": "8.2.2"
+          }
+        }
+      ]
+    ],
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "android.permission.CAMERA"
+      ],
+      "package": "com.etrix14.myfaceapp"
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f612e167-aa56-4844-836c-c14fc5122bb1"
+      }
+    }
+  }
+}
